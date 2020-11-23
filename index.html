@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoCatorce</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <div id="zonaNombre">
+
+        <h2 id="username">Bienvenido</h2>
+
+    </div>
+
+    <div id="zonaAgregar">
+
+        <h3 id="tusContactos">Tus contactos</h3>
+        <button id="mas">+</button>
+
+    </div>
+
+    <div id="listaContactos">
+
+    </div>
+
+    <div>
+
+      <h3 id="cerrarSesion">Cerrar sesion</h3>
+
+  </div>
+    
+</body>
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyAH_ZSfgC1GywpGXLiAsRsulPaQ5KwxOlQ",
+    authDomain: "proyectosemana14.firebaseapp.com",
+    databaseURL: "https://proyectosemana14.firebaseio.com",
+    projectId: "proyectosemana14",
+    storageBucket: "proyectosemana14.appspot.com",
+    messagingSenderId: "842577027540",
+    appId: "1:842577027540:web:5250c15849dc860d033641",
+    measurementId: "G-B6E8QTD42P"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+<script src="components/Homepage.js"></script>
+<script src="js/index.js"></script>

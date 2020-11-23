@@ -1,0 +1,112 @@
+#zonaNombre {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 5em;
+    margin-left: 15em;
+    margin-right: 15em;
+
+    color: white;
+    background-color: rgb(2, 104, 163);
+    border-color: rgb(2, 88, 138);
+
+}
+
+#zonaAgregar {
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 3em;
+    margin-left: 15em;
+    margin-right: 15em;
+
+    color: rgb(60, 60, 60);
+    background-color: rgb(220, 220, 220);
+
+}
+
+#mas {
+
+    position: absolute;
+
+    right: 18.6em;
+    top: 0.7em;
+
+    width: 2em;
+    height: 2em;
+
+    color: rgb(100, 100, 100);
+    background-color: rgb(200, 200, 200);
+    border: 2px solid rgb(100, 100, 100);
+}
+
+#tusContactos {
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+
+    left: 43.8%;
+
+    color: rgb(100, 100, 100);
+}
+
+.contacto {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+
+    margin: 1em 30em 1em 30em;
+
+    color: rgb(100, 100, 100);
+    background-color: rgb(200, 200, 200);
+    border: 2px solid rgb(100, 100, 100);
+}
+
+.contacto * {
+
+    margin-left: 1em;
+
+}
+
+.nameContact {
+
+    color: rgb(60, 60, 60);
+
+}
+
+.delButton {
+
+    position: absolute;
+
+    right: 0.5em;
+    top: 0.5em;
+
+    width: 2em;
+    height: 2em;
+
+    color: rgb(100, 100, 100);
+    background-color: rgb(200, 200, 200);
+    border: 2px solid rgb(100, 100, 100);
+
+}
+
+#cerrarSesion {
+
+    position: absolute;
+    display: flex;
+
+    left: 15em;
+    bottom: 5%;
+
+    color: rgb(2, 88, 138);
+
+}
